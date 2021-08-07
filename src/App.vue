@@ -14,10 +14,6 @@ import SortSelector from './SortSelector.vue'
 export default {
   name: 'App',
   data() {
-    data : [
-      mounted() {
-      },
-    ]
     return {
       oriStores: stores,
       stores: [...stores],
