@@ -16,7 +16,6 @@ export default {
   data() {
     data : [
       mounted() {
-        stores = 
       },
     ]
     return {
