@@ -44,7 +44,7 @@ export default {
         location: 10
       };
       this.axios
-        .post("http://koldin.myddns.me:4004/sort/name", params)
+        .post("http://koldin.myddns.me:4004/sort/", params)
         .then((res) => {
           console.log(res);
         });
