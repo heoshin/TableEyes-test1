@@ -8,7 +8,7 @@
     <div @click="$router.push('/wishList'), activeIdx = 1" :class="{ active: activeIdx == 1}">
       <span>찜</span>
     </div>
-    <div @click="$router.push('/StoreList'), activeIdx = 2" :class="{ active: activeIdx == 2}">
+    <div @click="$router.push('/Home'), activeIdx = 2" :class="{ active: activeIdx == 2}">
       <span>홈</span>
     </div>
     <div @click="$router.push('/history'), activeIdx = 3" :class="{ active: activeIdx == 3}">
