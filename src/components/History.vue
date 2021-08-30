@@ -1,5 +1,5 @@
 <template>
-  <h1>최근 기록</h1>
+  <h1>최근 zzkdfs</h1>
 </template>
 
 <script>
