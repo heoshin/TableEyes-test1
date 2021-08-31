@@ -1,4 +1,6 @@
 <template> 
+<div>
+<!-- 매장 기본 정보란 -->
   <div class="mainStoreImg">
             <img src="https://www.haeundae.go.kr/upload_data/board_data/BBS_0000050/157915039396198.png" alt="매장사진">
         </div>
@@ -61,15 +63,7 @@
                 </div>
             </article>
 
-
-
-
-
-
-
-
-
-            <!-- 정보란 -->
+            <!-- 메뉴 정보란 -->
             <article>
                 <div class="amenities">
                     <p>편의시설</p>
@@ -114,187 +108,180 @@
             </article>
         </section>
 
-
-
-
-
-
-
-
-
-        <!-- 리뷰란 -->
-        <section>
-            <article>
-                <div class="storeReviewAvg">
-                    <div class="allAvg">
-                        <p class="allAvg-title">전체평점</p>
-                        <p class="allAvg-num">4.5</p>
-                        <span class="allAvg-star"><span style="width: 90%;"></span></span>
-                    </div>
-                    <div class="allRating">
+        <!--메뉴 리뷰란 -->
+    <section>
+        <article>
+            <div class="storeReviewAvg">
+                <div class="allAvg">
+                    <p class="allAvg-title">전체평점</p>
+                    <p class="allAvg-num">4.5</p>
+                    <span class="allAvg-star"><span style="width: 90%;"></span></span>
+                </div>
+                <div class="allRating">
+                    <ul>
+                        <li>
+                            <div class="allRating-chart">
+                                <div class="allRating-bar" style="width:90%"></div>
+                            </div>
+                            <span class="allRating-score">4.5</span>
+                            <span class="allRating-name">친절도</span>
+                        </li>
+                        <li>
+                            <div class="allRating-chart">
+                                <div class="allRating-bar" style="width:78%"></div>
+                            </div>
+                            <span class="allRating-score">3.9</span>
+                            <span class="allRating-name">청결도</span>
+                        </li>
+                        <li>
+                            <div class="allRating-chart">
+                                <div class="allRating-bar" style="width:40%"></div>
+                            </div>
+                            <span class="allRating-score">2.0</span>
+                            <span class="allRating-name">편의성</span>
+                        </li>
+                        <li>
+                            <div class="allRating-chart">
+                                <div class="allRating-bar" style="width:100%"></div>
+                            </div>
+                            <span class="allRating-score">5.0</span>
+                            <span class="allRating-name">분위기</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="reviewBar">
+                <span class="reviewBar-title">리뷰</span>
+                <span class="reviewBar-num">1,800</span>
+                <div class="reviewBar-Photo">
+                    <input type="checkbox">
+                    <span>사진리뷰만</span>
+                </div>
+                <span class="reviewBar-bar"> | </span>
+                <span >
+                    <select class="reviewBar-date">
+                        <option>최신순</option>
+                        <option>최신순</option>
+                        <option>최신순</option>
+                    </select>
+                </span>
+            </div>
+        </article>
+        <article>
+            <div class="reviewPhotoBox">
+                <div class="reviewPhoto"></div>
+                <div class="reviewPhoto"></div>
+                <div class="reviewPhoto"><span class="reviewPhotoPlus">+99</span></div>
+            </div>
+        </article>
+        <article>
+            <div class="reviewBox">
+                <div class="mainreview-title">
+                    <span class="MRT-name none">사용자</span>
+                    <span class="MRT-date">2020.1.4</span>
+                    <span class="MRT-star"><span style="width: 50%;"></span></span>    
+                </div>
+                <div class="mainreview-rating">
+                    <div class="MRR-photo"></div>
+                    <div class="MRR-Rating">
                         <ul>
                             <li>
-                                <div class="allRating-chart">
-                                    <div class="allRating-bar" style="width:90%"></div>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:90%"></div>
                                 </div>
-                                <span class="allRating-score">4.5</span>
-                                <span class="allRating-name">친절도</span>
+                                <span class="MRR-Rating-score">4.5</span>
+                                <span class="MRR-Rating-name">친절도</span>
                             </li>
                             <li>
-                                <div class="allRating-chart">
-                                    <div class="allRating-bar" style="width:78%"></div>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:78%"></div>
                                 </div>
-                                <span class="allRating-score">3.9</span>
-                                <span class="allRating-name">청결도</span>
+                                <span class="MRR-Rating-score">3.9</span>
+                                <span class="MRR-Rating-name">청결도</span>
                             </li>
                             <li>
-                                <div class="allRating-chart">
-                                    <div class="allRating-bar" style="width:40%"></div>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:40%"></div>
                                 </div>
-                                <span class="allRating-score">2.0</span>
-                                <span class="allRating-name">편의성</span>
+                                <span class="MRR-Rating-score">2.0</span>
+                                <span class="MRR-Rating-name">편의성</span>
                             </li>
                             <li>
-                                <div class="allRating-chart">
-                                    <div class="allRating-bar" style="width:100%"></div>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:100%"></div>
                                 </div>
-                                <span class="allRating-score">5.0</span>
-                                <span class="allRating-name">분위기</span>
+                                <span class="MRR-Rating-score">5.0</span>
+                                <span class="MRR-Rating-name">분위기</span>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </article>
-            <article>
-                <div class="reviewBar">
-                    <span class="reviewBar-title">리뷰</span>
-                    <span class="reviewBar-num">1,800</span>
-                    <div class="reviewBar-Photo">
-                        <input type="checkbox">
-                        <span>사진리뷰만</span>
-                    </div>
-                    <span class="reviewBar-bar"> | </span>
-                    <span >
-                        <select class="reviewBar-date">
-                            <option>최신순</option>
-                            <option>최신순</option>
-                            <option>최신순</option>
-                        </select>
-                    </span>
+                <div class="mainreview-text">
+                    <p class="MRT-text">사용자의 리뷰가 들어갈 곳  입니다.사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  </p>
                 </div>
-            </article>
-            <article>
-                <div class="reviewPhotoBox">
-                    <div class="reviewPhoto"></div>
-                    <div class="reviewPhoto"></div>
-                    <div class="reviewPhoto"><span class="reviewPhotoPlus">+99</span></div>
+                <div class="mainreview-plus">
+                    <a href="#">더보기</a>
                 </div>
-            </article>
-            <article>
-                <div class="reviewBox">
-                    <div class="mainreview-title">
-                        <span class="MRT-name none">사용자</span>
-                        <span class="MRT-date">2020.1.4</span>
-                        <span class="MRT-star"><span style="width: 50%;"></span></span>    
-                    </div>
-                    <div class="mainreview-rating">
-                        <div class="MRR-photo"></div>
-                        <div class="MRR-Rating">
-                            <ul>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:90%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">4.5</span>
-                                    <span class="MRR-Rating-name">친절도</span>
-                                </li>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:78%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">3.9</span>
-                                    <span class="MRR-Rating-name">청결도</span>
-                                </li>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:40%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">2.0</span>
-                                    <span class="MRR-Rating-name">편의성</span>
-                                </li>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:100%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">5.0</span>
-                                    <span class="MRR-Rating-name">분위기</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mainreview-text">
-                        <p class="MRT-text">사용자의 리뷰가 들어갈 곳  입니다.사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  </p>
-                    </div>
-                    <div class="mainreview-plus">
-                        <a href="#">더보기</a>
-                    </div>
-                    <div class="mainreview-goodornot">
-                        <span class="MRG-num none">198</span>
-                    </div>    
-                </div>
-                <div class="reviewBox">
-                    <div class="mainreview-title">
-                        <span class="MRT-name none">사용자</span>
-                        <span class="MRT-date">2020.1.4</span>
-                        <span class="MRT-star"><span style="width: 50%;"></span></span>    
-                    </div>
-                    <div class="mainreview-rating">
-                        <div class="MRR-photo"></div>
-                        <div class="MRR-Rating">
-                            <ul>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:90%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">4.5</span>
-                                    <span class="MRR-Rating-name">친절도</span>
-                                </li>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:78%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">3.9</span>
-                                    <span class="MRR-Rating-name">청결도</span>
-                                </li>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:40%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">2.0</span>
-                                    <span class="MRR-Rating-name">편의성</span>
-                                </li>
-                                <li>
-                                    <div class="MRR-Rating-chart">
-                                        <div class="MRR-Rating-bar" style="width:100%"></div>
-                                    </div>
-                                    <span class="MRR-Rating-score">5.0</span>
-                                    <span class="MRR-Rating-name">분위기</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mainreview-text">
-                        <p class="MRT-text">사용자의 리뷰가 들어갈 곳  입니다.사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  </p>
-                    </div>
-                    <div class="mainreview-plus">
-                        <a href="#">더보기</a>
-                    </div>
-                    <div class="mainreview-goodornot">
-                        <span class="MRG-num none">198</span>
-                    </div>    
+                <div class="mainreview-goodornot">
+                    <span class="MRG-num none">198</span>
                 </div>    
-            </article>
-        </section>
+            </div>
+            <div class="reviewBox">
+                <div class="mainreview-title">
+                    <span class="MRT-name none">사용자</span>
+                    <span class="MRT-date">2020.1.4</span>
+                    <span class="MRT-star"><span style="width: 50%;"></span></span>    
+                </div>
+                <div class="mainreview-rating">
+                    <div class="MRR-photo"></div>
+                    <div class="MRR-Rating">
+                        <ul>
+                            <li>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:90%"></div>
+                                </div>
+                                <span class="MRR-Rating-score">4.5</span>
+                                <span class="MRR-Rating-name">친절도</span>
+                            </li>
+                            <li>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:78%"></div>
+                                </div>
+                                <span class="MRR-Rating-score">3.9</span>
+                                <span class="MRR-Rating-name">청결도</span>
+                            </li>
+                            <li>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:40%"></div>
+                                </div>
+                                <span class="MRR-Rating-score">2.0</span>
+                                <span class="MRR-Rating-name">편의성</span>
+                            </li>
+                            <li>
+                                <div class="MRR-Rating-chart">
+                                    <div class="MRR-Rating-bar" style="width:100%"></div>
+                                </div>
+                                <span class="MRR-Rating-score">5.0</span>
+                                <span class="MRR-Rating-name">분위기</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mainreview-text">
+                    <p class="MRT-text">사용자의 리뷰가 들어갈 곳  입니다.사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  입니다사용자의 리뷰가 들어갈 곳  </p>
+                </div>
+                <div class="mainreview-plus">
+                    <a href="#">더보기</a>
+                </div>
+                <div class="mainreview-goodornot">
+                    <span class="MRG-num none">198</span>
+                </div>    
+            </div>    
+        </article>
+    </section>
+</div>
 </template>
 
 <script>
@@ -313,7 +300,7 @@ ul{list-style: none;}
 a{text-decoration: none; color: black;}
 li{list-style: none;}
 article{width: 414px;}
-
+/* 매장기본정보란 */
 .mainStoreImg img{
     width: 374px;
     height: 216px;
@@ -339,7 +326,7 @@ article{width: 414px;}
     font-size: 26px;
     line-height: 30px;
 }
-
+/* 매장기본정보란 별점 */
 .storeStar {
     margin-top: 12px;
 }
@@ -361,10 +348,7 @@ article{width: 414px;}
     line-height: 0;
     vertical-align: top;
 }
-.dn {
-    display: none;
-}
-
+/* 별점, 거리 사이 "|"  */
 .star-1 {
     font-family: Roboto;
     font-style: normal;
@@ -387,7 +371,7 @@ article{width: 414px;}
 
     color: #FF0000;
 }
-
+/* 기본정보란바 */
 .storeBar {
     margin-top: 29px;
 
@@ -440,7 +424,7 @@ article{width: 414px;}
     font-size: 11px;
     line-height: 13px;
 }
-
+/* 기본정보란-영업정보 */
 .storeInformation:before {
     content:"";
     background-image: url("../assets/img/clock.png") ;
@@ -486,7 +470,7 @@ article{width: 414px;}
     font-weight: normal;
     font-size: 16px;
 }
-
+/* 기본정보란-위치 */
 .storeInformationL:before {
     content:"";
     background-image: url("../assets/img/location.png") ;
@@ -525,7 +509,7 @@ article{width: 414px;}
 
     color: #0075FF;
 }
-
+/* 기본정보란-지도 */
 .box {
     position: relative;
 
@@ -549,7 +533,7 @@ article{width: 414px;}
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* 메인바-정보,좌석,리뷰 */
 .mainBar {
     width: 414px;
     height: 59px;
@@ -566,10 +550,6 @@ article{width: 414px;}
     text-align: center;
 }
 
-.unative a {
-    color: #868686;
-}
-
 .mainBar ul li a {
     font-family: Roboto;
     font-style: normal;
@@ -578,7 +558,10 @@ article{width: 414px;}
     
     
 }
-
+/* 메인바-선택됐을때아닐때 */
+.unative a {
+    color: #868686;
+}
 .ative {
     box-sizing: border-box;
     border-top: 5px inset #646464;
@@ -586,9 +569,8 @@ article{width: 414px;}
 }
 
 
-/* 여기부터 정보 페이지 css */
-
-
+/* 메인바-정보*/
+/* 메인바-정보(편의시설) */
 .amenities p{
     margin-top: 29px;
     margin-left: 20px;
@@ -647,7 +629,7 @@ article{width: 414px;}
     display: flex;
     flex-direction: row;
 }
-
+/* 메인바-정보(공지사항) */
 .Notice {
     padding: 0 20px;
     width: 374px;
@@ -662,7 +644,8 @@ article{width: 414px;}
     font-weight: bold;
     font-size: 18px;
 }
-
+/* 메인바-리뷰 */
+/* 메인바-리뷰(전체평점) */
 .storeReviewAvg {
     width: 414px;
     height: 135px;
@@ -699,7 +682,7 @@ article{width: 414px;}
 
     color: #000000;
 }
-
+/* 메인바-리뷰(전체평점별점) */
 .allAvg-star{ 
     width: 88px;
 }
@@ -723,7 +706,7 @@ article{width: 414px;}
     position: absolute;
     left: 0px;
 }
-
+/* 메인바-리뷰(전체세부항목평점) */
 .allRating {
     float: left;
     margin-top: 20px;
@@ -735,7 +718,7 @@ article{width: 414px;}
 .allRating ul li {
     margin-bottom: 7px;
 }
-
+/* 메인바-리뷰(전체세부항목평점그래프) */
 .allRating-chart {
     display: inline-block;
     width: 163px;
@@ -773,7 +756,7 @@ article{width: 414px;}
     
     color: #767676;
 }
-
+/* 메인바-리뷰(리뷰바) */
 .reviewBar {
     width: 414px;
     height: 44px;
@@ -826,7 +809,7 @@ article{width: 414px;}
     margin-right: 11px;
     color: #D7D7D7;
 }
-
+/* 메인바-리뷰(리뷰바-정렬아이콘변경) */
 select {
     width: 65px;
     border: 0px;
@@ -841,7 +824,7 @@ select {
     line-height: 16px;
     letter-spacing: 0.7px;
 }
-
+/* 메인바-리뷰(사진) */
 .reviewPhotoBox {
     width: 414px;
     height: 87px;
@@ -852,7 +835,7 @@ select {
     line-height: 90px;
     
 }
-
+/* 메인바-리뷰(사진더보기) */
 .reviewPhotoPlus {
     font-family: Roboto;
     font-style: normal;
@@ -873,7 +856,7 @@ select {
     background: #C4C4C4;
     border-radius: 10px;
 }
-
+/* 메인바-리뷰(사용자리뷰) */
 .reviewBox {
     width: 414px;
     height: 347px;
@@ -889,7 +872,7 @@ select {
     margin-top: 6px;
     padding-left: 20px;
 }
-
+/* 메인바-리뷰(사용자리뷰-별명(이름)앞 아이콘설정(좋아,싫어)) */
 .MRT-name:before {
     content:"";
     background-image: url("../assets/img/review-sad.png");
@@ -902,9 +885,6 @@ select {
     margin-right: 15px;
     transform: translateY(25%);
 }
-
-
-
 
 .MRT-name {
     font-family: Roboto;

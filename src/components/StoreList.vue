@@ -1,17 +1,19 @@
 <template>
-  <!-- {{stores[0]}} -->
-  <input />
-  <button @click="sendGet">get</button>
-  <button @click="sendPost">post</button>
-  <button @click="sendDelete">delete</button>
-  <button @click="sendPatch">patch</button>
-  <button @click="sendPut">put</button>
-  <button @click="signUp">signUp</button>
-  <button @click="login">login</button>
+  <div>
+    <!-- {{stores[0]}} -->
+    <input />
+    <button @click="sendGet">get</button>
+    <button @click="sendPost">post</button>
+    <button @click="sendDelete">delete</button>
+    <button @click="sendPatch">patch</button>
+    <button @click="sendPut">put</button>
+    <button @click="signUp">signUp</button>
+    <button @click="login">login</button>
 
-  <div class="map"></div>
-  <SortSelector id="sort-selector" />
-  <Card class="card" v-for="store in stores" :key="store" :store="store" />
+    <div class="map"></div>
+    <SortSelector id="sort-selector" />
+    <Card class="card" v-for="store in stores" :key="store" :store="store" />
+  </div>
 </template>
 
 <script>
