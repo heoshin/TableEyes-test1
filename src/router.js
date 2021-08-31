@@ -1,10 +1,11 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from './components/Home.vue'
-import Search from './components/Search.vue'
+// import Search from './components/Search.vue'
 import WishList from './components/WishList.vue'
 import StoreList from './components/StoreList.vue'
 import History from './components/History.vue'
 import MyPage from './components/MyPage.vue'
+import StorePage from './components/StorePage.vue'
 
 const routes = [
   {
@@ -17,7 +18,7 @@ const routes = [
   },
   {
     path: "/search",
-    component: Search,
+    component: StorePage,
   },
   {
     path: "/wishList",
